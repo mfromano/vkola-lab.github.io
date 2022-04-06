@@ -60,9 +60,9 @@ permalink: /team/
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 
-  <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
+  <h3>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
   {% if member.scholar %}<a href="{{ member.scholar }}"><i class="fa-solid fa-user-graduate"></i></a>{% endif %}
-  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h2>
+  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h3>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -97,9 +97,9 @@ permalink: /team/
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 
-  <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
+  <h3>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
   {% if member.scholar %}<a href="{{ member.scholar }}"><i class="fa-solid fa-user-graduate"></i></a>{% endif %}
-  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h2>
+  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h3>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -134,9 +134,9 @@ permalink: /team/
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 
-  <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
+  <h3>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
   {% if member.scholar %}<a href="{{ member.scholar }}"><i class="fa-solid fa-user-graduate"></i></a>{% endif %}
-  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h2>
+  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h3>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -171,9 +171,9 @@ permalink: /team/
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 
-  <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
+  <h3>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
   {% if member.scholar %}<a href="{{ member.scholar }}"><i class="fa-solid fa-user-graduate"></i></a>{% endif %}
-  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h2>
+  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h3>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -208,9 +208,9 @@ permalink: /team/
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 
-  <h2>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
+  <h3>{% if member.github %}<a href="{{ member.github }}"><i class='fa fa-github'></i></a>{% endif %}
   {% if member.scholar %}<a href="{{ member.scholar }}"><i class="fa-solid fa-user-graduate"></i></a>{% endif %}
-  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h2>
+  {% if member.linkedin %}<a href="{{ member.linkedin }}"><i class="fa-brands fa-linkedin-in"></i></a>{% endif %}</h3>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
